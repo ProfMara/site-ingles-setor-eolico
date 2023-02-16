@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    
+    <title>Nova Página</title>
+</head>
+<body>   
+        <img src="icone.png" class="img-responsive" style="width:100%" >
+
+        <img src="energia eolica.png" class="img-responsive" style="width:100%">
+    
+        <div class="container">
+            <center>
+                <h1 class="page-header titulo">Por quê escolher nosso curso?</h1>
+                <h4>Aqui abaixo estão todas as vantagens que você vai ganhar com o curso COMPLETO “Turbine seus Inglês”</h4>
+            </center>
+            <section class="container-motivos ">
+                <h4><span class="glyphicon glyphicon-ok-sign"></span> 15 módulos com conteúdo técnico + vídeo aulas focado no setor</h4> 
+                <h4 ><span class="glyphicon glyphicon-ok-sign"></span>Acesso a plataforma (Sem prazo de validade)  </h4>
+                <h4 ><span class="glyphicon glyphicon-ok-sign"></span>Cronograma passo a passo para seus estudos</h4> 
+                <h4 ><span class="glyphicon glyphicon-ok-sign"></span>Certificado ao final do curso  </h4>
+                <h4 > <span class="glyphicon glyphicon-ok-sign"></span> BÔNUS ESPECIAL (45 aulas para você não passar apertos ao viajar para o exterior + Guia)</h4> 
+                
+                <h4 ><span class="glyphicon glyphicon-ok-sign"></span>15 módulos com conteúdo geral: expressões, frases, vocabulário da vida real</h4>
+                <h4 ><span class="glyphicon glyphicon-ok-sign"></span> Aplicativo Gratuito</h4> 
+                <h4 ><span class="glyphicon glyphicon-ok-sign"></span>Materiais de Apoio PDFs </h4>
+                <h4 ><span class="glyphicon glyphicon-ok-sign"></span> Suporte, Acompanhamento e tira-dúvidas direto comigo</h4> 
+                <h4 ><span class="glyphicon glyphicon-ok-sign"></span>Profissional bilíngue, diferenciado e com maior destaque no mercado é o que você se tornará</h4>
+            </section>
+        </div>
+            <section class="oferta">
+                <center>
+                <label class="text-white">APROVEITE A OFERTA!</label>
+                <div class="card">
+                    
+                        <h3 class="preco"><s>De R$ 997,00</s></h3>
+                        <h4 class="prestacao">por apenas 12x R$ 59,00</h4>
+                        <h1 class="vista"> R$ 597,00</h1>
+                        <button class="btn btn-oferta"> Eu quero me inscrever </button>
+                
+                </div>
+                </center> 
+            </section>
+            <section class="video-container">
+                <center>
+                <iframe id="video" class="youtube-video" style="display:none;" width="560px" height="315px" src="https://www.youtube.com/embed/CQu5AXBnKhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </center>                    
+                <div id="video-botao">
+                        <h2 class="textoVideo">CONHEÇA <span style="color:orangered">UMA AMOSTRA</span> DE NOSSO <u>MATERIAL</u> E DE NOSSA <u>METODOLOGIA</u> </h2>
+                        <center>
+                            <button class="botao" onclick="mostrarVideo()">
+                                <img src="play.png">
+                                <h3 class="textoVideo">APERTE O PLAY E ASSISTA AO VIDEO</h3>
+                            </button>
+                        </center>
+                </div>
+            </section>
+        
+            <br><br>  <br><br>  <br><br>
+            <center>
+            <section class="faq">
+                <h2 class="faq-title">DÚVIDAS FREQUENTES:</h2>
+                <div class="pergunta" data-toggle="collapse" data-target="#resposta1">
+                    <h2  class="pergunta-texto">QUAL A DURAÇÃO DO PROJETO? <span class="glyphicon glyphicon-triangle-bottom"></span></h2>
+                </div>
+                <div class="collapse resposta-estilo" id="resposta1">
+                    <h2>Os 15 módulos foram projetados para 15 semanas, ou seja, 1 módulo por semana. Entretanto, o projeto proporciona flexibilidade e você poderá fazer no seu ritmo e de acordo com sua disponibilidade vindo a finalizar em mais tempo ou menos tempo. </h2>
+                </div>
+                <div class="pergunta" data-toggle="collapse" data-target="#resposta2">
+                    <h2 class="pergunta-texto">ESSE CURSO É PARA INICIANTE, OU QUEM JÁ SABE INGLÊS PODERÁ FAZER TAMBÉM? <span class="glyphicon glyphicon-triangle-bottom"></span></h2>
+                </div>
+                <div class="collapse resposta-estilo" id="resposta2">
+                    <h2>Este treinamento serve tanto para você que está iniciando e precisa de um aprendizado mais rápido quanto para você que já sabe Inglês e deseja aperfeiçoar suas habilidades de comunicação com algo mais voltado para sua área profissional. </h2>
+                </div>
+                <div class="pergunta" data-toggle="collapse" data-target="#resposta3">
+                    <h2 class="pergunta-texto">ESTE TREINAMENTO FORNECE CERTIFICAÇÃO AO TÉRMINO? QUAL A CARGA HORÁRIA? <span class="glyphicon glyphicon-triangle-bottom"></span></h2>
+                </div>
+                <div class="collapse resposta-estilo" id="resposta3">
+                    <h2>Sim. Ao termino você receberá o certificado com a carga horária de 60 horas. </h2>
+                </div>
+
+                <div  class="pergunta" data-toggle="collapse" data-target="#resposta4">
+                    <h2 class="pergunta-texto">COMO SERÁ AVALIADO MEU PROGRESSO E COMO VOU TIRAR AS DÚVIDAS QUE SURGIR? <span class="glyphicon glyphicon-triangle-bottom"></span></h2>
+                </div>
+                <div  class="collapse resposta-estilo" id="resposta4">
+                    <h2>Seu progresso será avaliado SEMPRE que solicitar alguns de nossos profissionais pelo suporte ou pelo próprio aplicativo. As dúvidas que surgir poderá ser compartilhada pelo aplicativo, pelo e-mail ou diretamente por nosso contato no Whatssap. </h2>
+                </div>
+            </section>
+            <section class="container-perfil">
+                <img class="img-responsive foto" src="jesse.jpg">
+                <div class="sobre">
+                    <h2 id="nome">
+                        SOBRE O JESSE FERRI </h2>
+                    <h3 id="mais"> Co-fundador da Empresa FERRI LANGUAGES - Apaixonado por Idiomas, e com a experiência que possui UNIU-SE em parceria com profissionais que estão atuando em Projetos Internacionais e criou este MATERIAL para quem é da Área Eólica ou quer se inserir.  O OBJETIVO único deste Material é ajudar profissionais a ter uma comunicação mais técnica e acelerada com aquilo que pertence a sua rotina e sua realidade abrindo portas à NOVAS OPORTUNIDADES de crescimento pessoal e profissional.    </h3>
+                </div>
+            </section>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>

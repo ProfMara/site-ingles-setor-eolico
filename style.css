@@ -1,0 +1,264 @@
+
+.container-motivos {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.glyphicon-ok-sign{
+    color:lime;
+}
+
+.oferta{
+    background-color: #080808;
+
+    padding-bottom: 50px;
+}
+.text-white {
+    color: white;
+    text-align: center;
+    margin:auto;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card{
+    border-radius: 30px;
+    background:white;
+    justify-content: center;
+    padding:30px;
+    align-items: center;
+    margin:auto;
+    box-sizing: border-box;
+    width:420px;
+    height:350px;
+}
+
+.btn-oferta{
+    background:#FF4D6D;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 12px;
+    padding-left:40px;
+    padding-right:40px;
+    color:white;
+}
+.btn-oferta:hover{
+    transition:0.2s;
+    transform: scale(1.1);
+    color:white;
+}
+
+.vista{
+    font-size: 75px;
+    font-weight: 550;
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+.preco{
+    font-size: 30px;
+}
+
+.info{
+    background:black;
+    display: inline-block;
+}
+
+.detalhes{
+    text-align: center;
+}
+
+.white{
+    color:white
+}
+
+.verde{
+    color:lime;
+    font-weight: 600;
+}
+.titulo{
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #292929;
+}
+
+
+
+.sobre img{
+    border-radius: 50%;
+}
+
+.pergunta{
+    background-color: white;
+    margin: 0 10% 0 10%;
+    padding:5x;
+}
+
+.resposta-estilo{
+    
+    background-color: white;
+    margin: 0 10% 0 10%;
+    padding:10px;
+    margin-bottom: 100px;
+
+    font-family: Comic Sans MS;
+    font-weight: 100;
+    color:rgb(119,119,119);
+    font-size: 10px;
+}
+
+.faq{
+    
+    background-color: black;
+    display: block;
+    margin:auto;
+    justify-content: center;
+    padding:30px;
+    margin-top:500px;
+}
+
+.glyphicon-triangle-bottom{
+    float:right;
+    margin-left:50px;
+}
+.pergunta-texto{
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    color:#1a0f0f;
+    font-size: 20px;
+    padding:10px    
+}
+
+.container-perfil{
+    display:flex;
+
+}
+.foto{
+    width:350px;
+    height:400px;
+    margin-left: 10%;
+}
+#mais{
+    text-align: center;
+    font-family: Arial;
+    font-weight: lighter;
+}
+.sobre{
+    margin:0 10% 0 10%;
+}
+@media (max-width:1000px) {
+    .container-perfil{
+        display:block
+    }
+}
+
+#nome{
+    font-weight: bold;
+    text-align: center;
+}
+
+.faq-title{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.video-container{
+    background-image: url("fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    width:100%;
+    margin:0;
+    padding:100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.botao{
+    background-color: #00000000;
+
+}
+.botao:hover img{
+    transition:0.5s;
+    transform: scale(1.1);
+}
+
+#video{
+    display: none;
+    position:relative;
+}
+.textoVideo{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+.resposta-estilo h2{
+    color:gray;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+@media (max-width: 600px) {
+    .container-motivos {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns:100%;
+        justify-content: center;
+        text-align: left;
+        margin: 0 auto;
+        padding: 16px;
+    }
+    .card{
+        border-radius: 30px;
+        background:white;
+        justify-content: center;
+        padding:30px;
+        align-items: center;
+        margin:auto;
+        box-sizing: border-box;
+        width:320px;
+        height:300px;
+    }
+
+    .btn-oferta{
+        background:#FF4D6D;
+        font-weight: bolder;
+        font-size: 20px;
+        border-radius: 12px;
+        padding-left:20px;
+        padding-right:20px;
+        color:white;
+        margin:auto;
+    }
+    .btn-oferta:hover{
+        transition:0.2s;
+        transform: scale(1.1);
+        color:white;
+    }
+    
+    .vista{
+        font-size: 50px;
+        font-weight: 550;
+        margin-top: 25px;
+        margin-bottom:25px;
+    }
+    .preco{
+        font-size: 25px;
+    }
+    #video{
+        width:300px;
+        height:170px;
+    }
+    
+}
